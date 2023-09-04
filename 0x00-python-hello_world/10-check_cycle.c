@@ -9,21 +9,21 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *hare, *tortoise, *temp;
+	listint_t *hare, *tortoise;
 
 	hare = list;
 	tortoise = list;
-	temp = list;
 
-	while (hare)
+	if (list == NULL)
+		return (0);
+
+	while (hare && hare->next)
 	{
-		hare = temp->next->next;
-		tortoise = list->next;
+		hare = hare->next->next;
+		tortoise = tortoise->next;
 
 		if (hare == tortoise)
 			return (1);
-		list = tortoise;
-		temp = hare;
 	}
 
 	return (0);
