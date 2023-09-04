@@ -1,0 +1,8 @@
+*.pyc
+_*
+~*
+*.exe
+*.out
+.*
+_putchar.c
+*main.c
