@@ -8,4 +8,5 @@ def print_last_digit(number):
     while num > 9:
         last = num % 10
         num = last
+    print(last, end="")
     return (last)
