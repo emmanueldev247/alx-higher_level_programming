@@ -1,4 +1,10 @@
-# Higher-level programming - Python
+# Higher-level programming - Python <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" alt="Python Prog. Lang Icon" style="width: 50%;" />
+
+<div style="display: flex; align-items: center;">
+  <h1>Higher-level programming - Python</h1>
+  <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Py    thon-512.png" alt="Python Prog. Lang Icon" style="width: 50%;" />
+</div>
+
 
 In this repository, you'll find programs written for the higher-level programming track (Sprint 2) at [ALX Africa](https://twitter.com/alx_africa). These projects commenced during the 4th month of the Software Engineering program curriculum, where I am presently immersing myself in Python. Alongside Python, I've been actively strengthening and broadening my proficiency in C and shell scripting. The subsequent section outlines the projects included: _(would be updated as I push):_
 
@@ -7,7 +13,7 @@ In this repository, you'll find programs written for the higher-level programmin
 
 
 ## Author:
-* **Emmanuel Ademola** <\/[emmanueldev24](https://github.com/emmanueldev247):clock12:>
+* **Emmanuel Ademola** <\/[emmanueldev247](https://github.com/emmanueldev247) :clock12:>
 
 ## Acknowledgements :pray:
 
