@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center;">
   <h1>Higher-level programming - Python</h1>
-  <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Py    thon-512.png" alt="Python Prog. Lang Icon" style="width: 50%;" />
+  <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" alt="Python Prog. Lang Icon" style="width: 50%;" />
 </div>
 
 
