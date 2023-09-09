@@ -1,6 +1,6 @@
 # 0x03. Python - Data Structures: Lists, Tuples
 
-In this project, I learned about lists, tuples, the differences & similarities between them, how to use them and when to use either of them. I also implemented stacks and queues using the knowledge from this project. 
+In this project, I learned about lists, tuples, the differences and similarities between them, how to use them and when to use either of them. I also implemented stacks and queues using the knowledge from this project. 
 
 ## Function Prototypes :memo:
 
