@@ -15,12 +15,11 @@ In this project, I learned about lists, tuples, the differences & similarities b
 | `6-print_matrix_integer.py` | `def print_matrix_integer(matrix=[[]]):`                                                              |
 | `7-add_tuple.py`       | `def add_tuple(tuple_a=(), tuple_b=()):`                                                        |
 | `8-multiple_returns.py`           | `def multiple_returns(sentence):`                                                                |
-| `9-max_integer.py`           | `def max_integer(my_list=[]):
-`                                                                        |
+| `9-max_integer.py`           | `def max_integer(my_list=[]):`                                                                        |
 | `10-divisible_by_2.py`             | `def divisible_by_2(my_list=[]):`                                                                           |
 | `11-delete_at.py`       | `def delete_at(my_list=[], idx=0):`                                                             |
 
-## Table of contents
+## Table of contents :book:
 Files | Description
 ----- | -----------
 [0-print_list_integer.py](./0-print_list_integer.py) | Python function that prints all integers of a list
