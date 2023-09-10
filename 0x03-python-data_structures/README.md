@@ -6,7 +6,7 @@ In this project, I learned about lists, tuples, the differences and similarities
 
 | File                           | Prototype                                                                                                 |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| `0-print_list_integer.py`    | `ddef print_list_integer(my_list=[]):`                                                                    |
+| `0-print_list_integer.py`    | `def print_list_integer(my_list=[]):`                                                                    |
 | `1-element_at.py`          | `def element_at(my_list, idx):`                                                           |
 | `2-replace_in_list.py`                | `def replace_in_list(my_list, idx, element):`                                                                               |
 | `3-print_reversed_list_integer.py`         | `def print_reversed_list_integer(my_list=[]):`                                                                      |
