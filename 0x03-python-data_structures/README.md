@@ -35,3 +35,5 @@ Files | Description
 [9-max_integer.py](./9-max_integer.py) | Python function that finds the biggest integer of a list
 [10-divisible_by_2.py](./10-divisible_by_2.py) | Python function that finds all multiples of 2 in a list
 [11-delete_at.py](./11-delete_at.py) | Python function that deletes the item at a specific position in a list
+[12-switch.py](./12-switch.py) | Python program that completes source code in order to switch value of a and b
+[13-is_palindrome.c](./13-is_palindrome.c) | C program that checks if a singly linked list is a palindrome
