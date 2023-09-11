@@ -19,6 +19,7 @@ In this project, I learned about lists, tuples, the differences and similarities
 | `10-divisible_by_2.py`             | `def divisible_by_2(my_list=[]):`                                                                           |
 | `11-delete_at.py`       | `def delete_at(my_list=[], idx=0):`                                                             |
 | `13-is_palindrome.c`       | `int is_palindrome(listint_t **head);`                                                             |
+| `100-print_python_list_info.c`       | `void print_python_list_info(PyObject *p);`                                                             |
 
 ## Table of contents :book:
 Files | Description
@@ -37,3 +38,4 @@ Files | Description
 [11-delete_at.py](./11-delete_at.py) | Python function that deletes the item at a specific position in a list
 [12-switch.py](./12-switch.py) | Python program that completes source code in order to switch value of a and b
 [13-is_palindrome.c](./13-is_palindrome.c) | C program that checks if a singly linked list is a palindrome
+[100-print_python_list_info.c](./100-print_python_list_info.c) | C function to compile in a shared library that prints info on a Python list
