@@ -25,20 +25,18 @@ int is_palindrome(listint_t **head)
 		fast = fast->next->next;
 	}
 
-	while (current)
+	while (slow)
 	{
-		next = current->next;
-		current->next = prev;
-		prev = current;
-		current = next;
+		next = slow->next;
+		slow->next = prev;
+		prev = slow;
+		slow = next;
 	}
-
-	if (fast->next == NULL)
-		slow = slow->next;
 
 	reversed = prev;
 
 	current = *head;
+
 	while (reversed && current)
 	{
 		if (current->n != reversed->n)
