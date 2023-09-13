@@ -7,8 +7,14 @@ def roman_to_int(roman_string):
     roman_value = {"I": 1, "V": 5, "X": 10,
                    "L": 50, "C": 100, "D": 500, "M": 1000}
     value = 0
+    previous = 4000
     for i in roman_string:
         for key, val in roman_value.items():
             if i == key:
-                value += val
+                if val <= previous:
+                    value += val
+                else:
+                    value -= val
+                value = abs(value)
+                previous = val
     return value
