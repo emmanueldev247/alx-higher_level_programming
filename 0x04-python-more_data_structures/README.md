@@ -20,3 +20,6 @@ In this project, I've learned about fundamental data structures like sets and di
 | `11-multiply_list_map.py`       | `def multiply_list_map(my_list=[], number=0):`                                                             |
 | `12-roman_to_int.py`       | `def roman_to_int(roman_string):`                                                             |
 | `100-weight_average.py`       | `def weight_average(my_list=[]):`                                                             |
+| `101-square_matrix_map.py`       | `def square_matrix_map(matrix=[]):`                                                             |
+| `102-complex_delete.py`       | `def complex_delete(a_dictionary, value):`                                                             |
+| `103-python.c`       | `void print_python_list(PyObject *p);`                                                             |
