@@ -23,3 +23,12 @@ In this project, I've learned about fundamental data structures like sets and di
 | `101-square_matrix_map.py`       | `def square_matrix_map(matrix=[]):`                                                             |
 | `102-complex_delete.py`       | `def complex_delete(a_dictionary, value):`                                                             |
 | `103-python.c`       | `void print_python_list(PyObject *p);`                                                             |
+
+## Table of contents :book:
+Files | Description
+----- | -----------
+[0-square_matrix_simple.py](./0-square_matrix_simple.py) | Python function that computes the square value of all integers of a matrix
+[1-search_replace.py](./1-search_replace.py) | Python function that replaces all occurrences of an element by another in a new list
+[2-uniq_add.py](./2-uniq_add.py) | Python function that adds all unique integers in a list (only once for each integer)
+[3-common_elements.py](./3-common_elements.py) | Python function that returns a set of common elements in two sets
+[4-only_diff_elements.py](./4-only_diff_elements.py) | Python function that returns a set of all elements present in only one set
