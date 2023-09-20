@@ -4,6 +4,7 @@ syntax enable
 set smartindent
 set autoindent
 "set expandtab
+set cindent
 set tabstop=4
 set shiftwidth=4
 set hlsearch
