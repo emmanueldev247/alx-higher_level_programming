@@ -21,7 +21,6 @@ In this project, I learned about Errors and Exceptions. I learned:
 | `6-raise_exception_msg.py`    | `def raise_exception_msg(message=""):`                                                                    |
 | `100-safe_print_integer_err.py`    | `def safe_print_integer_err(value):`                                                                    |
 | `101-safe_function.py`    | `def safe_function(fct, *args):`                                                                    |
-| `100-safe_print_integer_err.py`    | `def safe_print_integer_err(value):`                                                                    |
 
 ## Table of contents :book:
 Files | Description
@@ -35,5 +34,3 @@ Files | Description
 [6-raise_exception_msg.py](./6-raise_exception_msg.py) | Python function that raises a name exception with a message
 [100-safe_print_integer_err.py](./100-safe_print_integer_err.py) | Python function that prints an integer
 [101-safe_function.py](./101-safe_function.py) | Python function that executes a function safely
-
-[100-safe_print_integer_err.py](./100-safe_print_integer_err.py) | Python function that prints an integer
