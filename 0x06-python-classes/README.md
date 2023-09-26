@@ -13,3 +13,4 @@ In this project, I learned about Object Oriented Programming (OOP)
 Files | Description
 ----- | -----------
 [0-square.py](./0-square.py) | an empty class Square that defines a square
+
