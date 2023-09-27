@@ -28,7 +28,6 @@ class Square:
         else:
             self.__position = position
 
-
     @property
     def size(self):
         """"attribute getter method"""
