@@ -7,11 +7,6 @@ In this project, I learned about Object Oriented Programming (OOP)
 - what the special `__init__` method is and how to use it
 - what Data Abstraction, Data Encapsulation, and Information Hiding are
 
-## Function Prototypes :memo:
-
-| File                           | Prototype                                                                                                 |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| `0-square.py`    | ``                                                                    |
 
 
 ## Table of contents :book:
