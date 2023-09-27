@@ -19,3 +19,6 @@ Files | Description
 [4-square.py](./4-square.py) | a class Square that defines a square by: (based on [3-square.py](./3-square.py)) and adds getter and setter
 [5-square.py](./5-square.py) | a class Square that defines a square by: (based on [4-square.py](./4-square.py)) and adds another public instance method to print to stdout
 [6-square.py](./6-square.py) | a class Square that defines a square by: (based on [5-square.py](./5-square.py)) and adds another private instance attribute
+[6-square.py](./6-square.py) | a class Square that defines a square by: (based on [5-square.py](./5-square.py)) and adds another private instance attribute
+[101-square.py](./101-square.py) | a class Square that defines a square by: (based on [6-square.py](./5-square.py)) and adds the printing functionality of the `__str__` magic method
+[102-square.py](./102-square.py) | a class Square that defines a square by: (based on [4-square.py](./5-square.py)) and adds comparison operators method
