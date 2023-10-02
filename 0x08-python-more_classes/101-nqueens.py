@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+"""Solving the The N queens puzzle"""
+
 import sys
 
 
@@ -15,8 +17,6 @@ def is_convertible_to_int(s):
 
     return True
 
-
-"""Solving the The N queens puzzle"""
 
 def is_safe(board, row, col):
     """
@@ -87,4 +87,3 @@ if __name__ == "__main__":
         exit(1)
 
     solve_nqueens(N)
-
