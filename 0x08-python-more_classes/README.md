@@ -13,3 +13,4 @@ Files | Description
 ----- | -----------
 [0-rectangle.py](./0-rectangle.py) | an empty class `Rectangle` Square that defines a rectangle
 [1-rectangle.py](./1-rectangle.py) | a class `Rectangle` that defines a rectangle by: (based on [0-square.py](./0-square.py)) and adds 2 private instance attributes:- width and height
+[2-rectangle.py](./2-rectangle.py) | a class `Rectangle` that defines a rectangle by: (based on [1-square.py](./1-square.py)) and adds 2 public instance methods:- area and perimeter
