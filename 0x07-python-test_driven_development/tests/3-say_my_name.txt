@@ -37,8 +37,16 @@ This module defines a Say my name function ```def say_my_name(first_name, last_n
     Traceback (most recent call last):
     TypeError: first_name must be a string
 
-* The function requires at least 1 argumemnt first_name to work
+* The function requires at least 1 argument (first_name) to work
 ::
+
     >>> say_my_name()
     Traceback (most recent call last):
     TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
+* The function requires at most 2 arguments (first_name, last_name) to work
+::
+
+    >>> say_my_name("James", "Bond", "007") #doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: say_my_name() takes from 1 to 2 positional arguments but ...
