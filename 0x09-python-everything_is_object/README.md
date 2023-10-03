@@ -1,0 +1,6 @@
+# 0x09. Python - Everything is object
+
+In this project, I learned how Python works with different types of object
+- the difference between immutable object and mutable object
+- What reference, assignment and alias mean
+- How to display the variable identifier using `id()` (which is the memory address in the CPython implementation)
