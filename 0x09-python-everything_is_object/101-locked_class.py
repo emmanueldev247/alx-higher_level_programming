@@ -11,3 +11,4 @@ class LockedClass:
         if name != "first_name":
             raise AttributeError("'LockedClass' object\
  has no attribute '{}'".format(name))
+        super().__setattr__(name, value)
