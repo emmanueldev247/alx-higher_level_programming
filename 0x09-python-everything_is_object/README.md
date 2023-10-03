@@ -32,3 +32,8 @@ Files | Description
 [21-answer.txt](./21-answer.txt) | contains answer to -> `a = (1, 2)` Is `a` a tuple?
 [22-answer.txt](./22-answer.txt) | contains answer to -> `a = (1)` Is `a` a tuple?
 [23-answer.txt](./23-answer.txt) | contains answer to -> `a = (1, )` Is `a` a tuple?
+[24-answer.txt](./24-answer.txt) | contains answer to -> What does this script print?<br> `a = (1)` <br> `b = (1)`  <br> `a is b`
+[25-answer.txt](./25-answer.txt) | contains answer to -> What does this script print?<br> `a = (1, 2)` <br> `b = (1, 2)`  <br> `a is b`
+[26-answer.txt](./26-answer.txt) | contains answer to -> What does this script print?<br> `a = ()` <br> `b = ()`  <br> `a is b`
+[27-answer.txt](./27-answer.txt) | contains answer to -> Will the last line of this script print `139926795932424`?<br> `>>> id(a)` <br> `139926795932424` <br> `>>> a` <br> `[1, 2, 3, 4]`<br> `>>> a = a + [5]` <br> `>>> id(a)`
+[28-answer.txt](./28-answer.txt) | contains answer to -> Will the last line of this script print `139926795932424`?<br> `>>> a` <br> `[1, 2, 3]` <br> `id(a)` <br> `139926795932424` <br> `>>> a += [4]` <br> `>>> id(a)`
