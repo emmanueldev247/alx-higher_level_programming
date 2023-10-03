@@ -29,3 +29,6 @@ Files | Description
 [18-answer.txt](./18-answer.txt) | contains answer to -> What does this script print?<br> `def assign_value(n, v):` <br> `    n = v`  <br><br> `l1 = [1, 2, 3]` <br> `l2 = [4, 5, 6]` <br>`assign_value(l1, l2)` <br> `print(l1)`
 [19-answer.txt](./19-answer.txt) | function `def copy_list(l):` that returns a copy of a list
 [20-answer.txt](./20-answer.txt) | contains answer to -> `a = ()` Is `a` a tuple?
+[21-answer.txt](./21-answer.txt) | contains answer to -> `a = (1, 2)` Is `a` a tuple?
+[22-answer.txt](./22-answer.txt) | contains answer to -> `a = (1)` Is `a` a tuple?
+[23-answer.txt](./23-answer.txt) | contains answer to -> `a = (1, )` Is `a` a tuple?
