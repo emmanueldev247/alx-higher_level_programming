@@ -1,13 +1,14 @@
-# 0x05. Python - Exceptions
+# 0x07. Python - Test-driven development
 
-In this project, I learned about Errors and Exceptions. I learned:
-- the differences between them
-- how and when to use exceptions
-- how to correctly handle exceptions
-- how to raise an exception
-- how to create a custom exception and
-- implementation of clean-up action after an exception
+In this project, I learned about Test-driven development. I learned:
+- why tests are important
+- what an interactive test is
+- how to write Docstrings to create tests
+- what the basic option flags to create tests are
+- how to find edge cases
 
+
+<!--
 ## Function Prototypes :memo:
 
 | File                           | Prototype                                                                                                 |
@@ -22,8 +23,7 @@ In this project, I learned about Errors and Exceptions. I learned:
 | `100-safe_print_integer_err.py`    | `def safe_print_integer_err(value):`                                                                    |
 | `101-safe_function.py`    | `def safe_function(fct, *args):`                                                                    |
 | `102-magic_calculation.py`    | `def magic_calculation(a, b):`                                                                    |
-| `103-python.c`    | <ul><li>`void print_python_list(PyObject *p);`</li><li>`void print_python_bytes(PyObject *p);`</li><li>`void print_python_float(PyObject *p);`</li></ul> |
-
+    -
 
 ## Table of contents :book:
 Files | Description
@@ -39,3 +39,4 @@ Files | Description
 [101-safe_function.py](./101-safe_function.py) | Python function that executes a function safely
 [102-magic_calculation.py](./102-magic_calculation.py) | Python function that does exactly the same as the provided Python bytecode
 [103-python.c](./103-python.c) | Three C functions that print some basic info about Python lists, Python bytes an Python float objects
+-->
