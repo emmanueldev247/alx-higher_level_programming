@@ -12,3 +12,5 @@ class LockedClass:
             raise AttributeError("'LockedClass' object\
  has no attribute '{}'".format(name))
         super().__setattr__(name, value)
+
+    __slots__ = ["first_name"]
