@@ -24,4 +24,10 @@ In this project, I learned about Test-driven development. I learned:
 ## Table of contents :book:
 Files | Description
 ----- | -----------
-[0-rectangle.py](./0-rectangle.py) | an empty class `Rectangle` Square that defines a rectangle
+[0-add_integer.py](./0-add_integer.py) | function that adds 2 integers
+[2-matrix_divided.py](./2-matrix_divided.py) | function that divides all elements of a matrix
+[3-say_my_name.py](./3-say_my_name.py) | function that prints `My name is <first name> <last name>`
+[4-print_square.py](./4-print_square.py) | function that prints a square with the character `#`
+[5-text_indentation.py](./5-text_indentation.py) | function that  prints a text with 2 new lines after each of these characters: ` . ` , ` ? ` and ` : `
+[tests/6-max_integer_test.py](./tests/6-max_integer_test.py) | unittests for the function `def max_integer(list=[]):` of [6-max_integer_test.py](./6-max_integer.py)
+[100-matrix_mul.py](./100-matrix_mul.py) | function that multiplies 2 matrices
