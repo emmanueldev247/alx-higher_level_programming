@@ -31,3 +31,4 @@ Files | Description
 [5-text_indentation.py](./5-text_indentation.py) | function that  prints a text with 2 new lines after each of these characters: ` . ` , ` ? ` and ` : `
 [tests/6-max_integer_test.py](./tests/6-max_integer_test.py) | unittests for the function `def max_integer(list=[]):` of [6-max_integer_test.py](./6-max_integer.py)
 [100-matrix_mul.py](./100-matrix_mul.py) | function that multiplies 2 matrices
+[tests files](./tests) | Python Test Cases (doctests and unittests) for the files in this [directory](./)
