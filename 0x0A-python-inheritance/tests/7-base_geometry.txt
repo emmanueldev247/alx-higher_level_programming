@@ -1,0 +1,57 @@
+=============================
+How to use 7-base_geometry.py
+=============================
+
+This module defines a class BaseGeometry
+
+
+# USAGE
+========
+
+Valid calls:
+------------
+
+* A public instance method: def area(self): that raises an Exception
+::
+
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+    >>> bg = BaseGeometry()
+    >>> try:
+    ...     print(bg.area())
+    ... except Exception as e:
+    ...     print("[{}] {}".format(e.__class__.__name__, e))
+    [Exception] area() is not implemented
+
+
+* A public instance method: def integer_validator(self, name, value): that validates value
+-> if value is not an integer: raise a TypeError exception
+::
+    >>> try:
+    ...     bg.integer_validator("name", "John")
+    ... except Exception as e:
+    ...     print("[{}] {}".format(e.__class__.__name__, e))
+    [TypeError] name must be an integer
+
+
+-> if value is less or equal to 0: raise a ValueError exception
+::
+    >>> try:
+    ...     bg.integer_validator("age", 0)
+    ... except Exception as e:
+    ...     print("[{}] {}".format(e.__class__.__name__, e))
+    [ValueError] age must be greater than 0
+
+    >>> try:
+    ...     bg.integer_validator("distance", -4)
+    ... except Exception as e:
+    ...     print("[{}] {}".format(e.__class__.__name__, e))
+    [ValueError] distance must be greater than 0
+
+
+-------------------------------------------
+
+case 2: no argument/attribute passed
+
+>>> bg.integer_validator()
+Traceback (most recent call last):
+TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
