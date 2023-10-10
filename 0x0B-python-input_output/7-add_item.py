@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Create a function that creates an Object from a “JSON file”
+"""Adds all arguments to a Python list, and then save them to a file
 """
 
 
