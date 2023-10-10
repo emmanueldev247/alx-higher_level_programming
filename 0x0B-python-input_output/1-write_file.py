@@ -7,8 +7,10 @@ def write_file(filename="", text=""):
         and returns the number of characters written
 
         Args:
-            filename(obj): file to be written to
+            filename(str): file to be written to
             text(str): string to be written to filename
+        Returns:
+            The number of vharacters written
 
     """
     with open(filename, "w", encoding='UTF-8') as my_file:
