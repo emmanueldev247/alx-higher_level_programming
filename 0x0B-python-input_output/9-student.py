@@ -23,7 +23,7 @@ class Student:
         simple data structure for JSON serialization of an object
         """
         return {
-        "first_name": self.first_name,
-        "last_name": self.last_name,
-        "age": self.age
+                "first_name": self.first_name,
+                "last_name": self.last_name,
+                "age": self.age
         }
