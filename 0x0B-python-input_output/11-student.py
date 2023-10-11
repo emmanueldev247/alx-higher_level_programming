@@ -39,7 +39,6 @@ class Student:
            Args:
             json(dict): containing attributes to be replaced"""
         attr_dict = dict(json)
-        print(attr_dict)
         for key, value in attr_dict.items():
             if key in self.__dict__:
                 self.__dict__[key] = value
