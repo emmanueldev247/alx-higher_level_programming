@@ -23,12 +23,12 @@ class Rectangle(BaseGeometry):
         self.integer_validator("height", height)
         self.__height = height
 
-
     def area(self):
         """Method for area of Rectangle"""
         return self.__width * self.__height
 
     def __str__(self):
         """Magic method for customised output"""
-        output = "[{}] {}/{}".format(self.__class__.__name__, self.__width, self.__height)
+        output = "[{}] {}/{}".format(self.__class__.__name__,
+                                     self.__width, self.__height)
         return output
