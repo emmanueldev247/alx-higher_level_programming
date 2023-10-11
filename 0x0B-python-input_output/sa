@@ -27,7 +27,12 @@ def pascal_triangle(n):
                 new_list.append(use_list[index])
             else:
                 new_list.append(use_list[index] + use_list[index - 1])
-            if index == len(use_list) - 1:
+            if index  == len(use_list) - 1:
                 new_list.append(use_list[index])
         result.append(new_list)
     return result
+
+
+for i in range(10):
+    print(str(i) + ". ", end="")
+    print(pascal_triangle(i))
