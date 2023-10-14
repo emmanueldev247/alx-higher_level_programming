@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""Unittest for max_integer([..])
-"""
+"""Unittest for base.p.py"""
+
+
 import unittest
 from models.base import Base
 
-class TestBases(unittest.TestCase):
+class TestBaseClass(unittest.TestCase):
     def test_auto_id_increment(self):
         b1 = Base()
         b2 = Base()
