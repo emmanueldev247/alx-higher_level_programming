@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """Creates a class 'Base' which happens to be
-	the base of other classes in this project"""
+the base of other classes in this project"""
 
 
 class Base:
@@ -12,8 +12,8 @@ class Base:
     def __init__(self, id=None):
         """Instantiation with id
 
-        Args:
-            id (int): id of class instances
+            Args:
+                id (int): id of class instances
         """
         if id is not None:
             self.id = id
