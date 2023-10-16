@@ -103,7 +103,11 @@ class Rectangle(Base):
 
     def display(self):
         """"public method that prints in stdout the Rectangle"""
+        for _ in range(self.__y):
+            print("")
         for x in range(self.__height):
+            for _ in range(self.__x):
+                print(" ", end="")
             for y in range(self.__width):
                 print('#', end="")
             print()
@@ -112,4 +116,4 @@ class Rectangle(Base):
         """Magic method for customised printing"""
         return "[Rectangle] ({}) {}/{} - " + \
                 "{}/{}".format(self.id, self.__x, self.__y,
-                              self.__width, self.__height)
+                               self.__width, self.__height)
