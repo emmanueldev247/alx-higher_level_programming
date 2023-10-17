@@ -41,3 +41,17 @@ class Base:
             return "[]"
         else:
             return json.dumps(list_dictionaries)
+
+
+    @classmethod
+    def save_to_json_file(my_obj, filename):
+     def save_to_file(cls, list_objs):
+         """function that writes an Object to a text file,
+        using a JSON representation
+
+        Args:
+            my_obj(object): object to write to "filename"
+            filename(str): file to be written to
+    """
+    with open(filename, "w", encoding='UTF-8') as my_file:
+        my_file.write(json.dumps(my_obj))
