@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-"""Creates a class 'Rectangle' that inherits from Base"""
+"""Creates a class 'Rectangle' that inherits from 'Base'"""
 
 from models.base import Base
 
@@ -11,10 +11,10 @@ class Rectangle(Base):
         """Instantiation with several private instance attributes
 
         Args:
-            width(int): width of rectangle
-            height(int): height of rectangle
-            x(int):
-            y(int):
+            width (int): width of rectangle
+            height (int): height of rectangle
+            x (int): The x coordinate of the new Rectangle.
+            y (int): The y coordinate of the new Rectangle.
         """
         super().__init__(id)
         if type(width) != int:
@@ -122,8 +122,13 @@ class Rectangle(Base):
         """Public method that assigns an argument to attribute using *args
 
            Args:
-               *args - no keyword argument
-               **kwargs - keyword argument
+               *args (ints): no keyword argument
+                  - 1st argument should be the id attribute
+                  - 2nd argument should be the width attribute
+                  - 3rd argument should be the height attribute
+                   - 4th argument should be the x attribute
+                   - 5th argument should be the y attribute
+               **kwargs (dict): keyword argument
         """
 
         if args:
