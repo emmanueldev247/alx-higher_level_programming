@@ -18,13 +18,19 @@ class Square(Rectangle):
         """
         super().__init__(size, size, x, y, id)
 
+    @property
+    def size(self):
+        """"attribute getter method - Get the size of the Square"""
+        return self.width
 
-    def area(self):
-        """"public method to return area of the Square"""
-        return self._Rectangle__width * self.width
+    @size.setter
+    def size(self, value):
+        """attribute setter method - Get/set the size of the Square"""
+        self.width = value
+        self.height = value
 
     def __str__(self):
         """Magic method for customised printing"""
         return "[Square] " + \
                "({}) {}/{} - {}".format(self.id, self.x, self.y,
-                                           self.width)
+                                        self.width)
