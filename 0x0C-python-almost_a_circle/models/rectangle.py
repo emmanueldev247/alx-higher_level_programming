@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """Creates a class 'Rectangle' that inherits from 'Base'"""
 
