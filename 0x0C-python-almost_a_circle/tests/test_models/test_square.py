@@ -638,7 +638,7 @@ class TestSquare_to_dictionary(unittest.TestCase):
 
     def test_to_dictionary_output(self):
         s = Square(10, 2, 1, 1)
-        correct = {'id': 1, 'width': 10, 'height': 10, 'x': 2, 'y': 1}
+        correct = {'id': 1, 'size': 10, 'x': 2, 'y': 1}
         self.assertDictEqual(correct, s.to_dictionary())
 
     def test_to_dictionary_no_object_changes(self):
