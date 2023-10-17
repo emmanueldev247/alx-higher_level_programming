@@ -14,6 +14,9 @@ class Base:
 
             Args:
                 id (int): id of class instances
+
+            Private Class Attributes:
+                __nb_object (int): Number of instantiated Bases
         """
         if id is not None:
             self.id = id
