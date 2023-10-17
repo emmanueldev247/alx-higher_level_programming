@@ -115,11 +115,11 @@ class Rectangle(Base):
     def __str__(self):
         """Magic method for customised printing"""
         return "[Rectangle] " + \
-                "({}) {}/{} - {}/{}".format(self.id, self.__x, self.__y,
+               "({}) {}/{} - {}/{}".format(self.id, self.__x, self.__y,
                                            self.__width, self.__height)
 
     def update(self, *args):
-        """Public method that assigns an argument to each attribute using *args"""
+        """Public method that assigns an argument to attribute using *args"""
 
         if len(args) >= 1:
             self.id = args[0]
