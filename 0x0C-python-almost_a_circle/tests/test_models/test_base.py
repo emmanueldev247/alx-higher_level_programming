@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Unittest for base.p.py"""
 
-
 import unittest
 from models.base import Base
+
 
 class TestBaseClass(unittest.TestCase):
     def test_auto_id_increment(self):
@@ -21,6 +21,7 @@ class TestBaseClass(unittest.TestCase):
 
         self.assertEqual(b4.id, 10)
         self.assertEqual(b5.id, 20)
+
 
 if __name__ == "__main__":
     unittest.main()
