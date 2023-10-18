@@ -13,6 +13,7 @@ In this repository, you'll find programs written for the higher-level programmin
 * [0x08-python-more_classes](./0x08-python-more_classes)
 * [0x09-python-everything_is_object](./0x09-python-everything_is_object)
 * [0x0A-Python-Inheritance](./0x0A-Python-Inheritance)
+* [0x0B-python-input_output](./0x0B-python-input_output)
 
 
 ## Author: :black_nib:
