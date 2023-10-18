@@ -12,6 +12,7 @@ In this repository, you'll find programs written for the higher-level programmin
 * [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
 * [0x08-python-more_classes](./0x08-python-more_classes)
 * [0x09-python-everything_is_object](./0x09-python-everything_is_object)
+* [0x0A-Python-Inheritance](./0x0A-Python-Inheritance)
 
 
 ## Author: :black_nib:
@@ -19,7 +20,7 @@ In this repository, you'll find programs written for the higher-level programmin
 
 ## Acknowledgements :pray:
 
-The entirety of the work within this project was accomplished within the framework of the ALX Africa SE curriculum. ALX Africa is an online, full-stack software engineering program designed to equip students with the skills required for pursuing careers in the tech industry, with an emphasis on project-based peer learning. For more information, visit [this link](https://www.alxafrica.com/).
+The ntirety of the work within this project was accomplished within the framework of the ALX Africa SE curriculum. ALX Africa is an online, full-stack software engineering program designed to equip students with the skills required for pursuing careers in the tech industry, with an emphasis on project-based peer learning. For more information, visit [this link](https://www.alxafrica.com/).
 
 
 <p align="center">
