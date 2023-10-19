@@ -64,3 +64,15 @@ class Base:
         with open(filename, "w", encoding='UTF-8') as my_file:
             json_str = cls.to_json_string(dict_list)
             my_file.write(json_str)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Returns the list of the JSON string representation json_string
+
+        Args:
+            json_String (str)
+        """
+        if json_string is None:
+            return []
+
+        return json.loads(json_string)
