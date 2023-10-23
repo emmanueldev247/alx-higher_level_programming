@@ -1,0 +1,9 @@
+#!/bin/bash
+touch junk
+git add .
+git commit -m "Push test"
+git push
+rm junk
+git add .
+git commit -m "removed junk"
+git push
