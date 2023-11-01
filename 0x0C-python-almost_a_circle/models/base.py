@@ -115,7 +115,7 @@ class Base:
         except IOError:
             return []
 
-     @classmethod
+    @classmethod
     def save_to_file_csv(cls, list_objs):
         """Write the CSV serialization of a list of objects to a file.
 
