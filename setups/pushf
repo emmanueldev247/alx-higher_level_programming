@@ -15,7 +15,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-echo "Enter commit message >> "
+echo -n "Enter commit message >> "
 read -r message
 
 # Check if the commit message is empty

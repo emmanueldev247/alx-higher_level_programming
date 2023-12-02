@@ -15,6 +15,14 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-git commit -m "README updated"
+echo -n "Enter update commit message >> "
+read -r message
 
-echo -e "\n\n${GREEN}DONE${NC}......................... ${GREEN}100%${NC}\n\n"
+# Check if the commit message is empty
+if [ -z "$message" ]; then
+    echo -e "${YELLOW}Warning:${NC} Commit message is empty. Aborting commit and push."
+else
+    git commit -m "$message"
+	git push
+    echo -e "\n\n${GREEN}DONE${NC}......................... ${GREEN}100%${NC}\n\n"
+fi
