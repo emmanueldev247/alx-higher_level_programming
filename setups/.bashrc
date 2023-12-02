@@ -85,6 +85,7 @@ alias l1='ls -1'
 alias gss='git status'
 alias gl='git log'
 alias grr='git reset --soft HEAD~1'
+alias grrh='git reset --hard HEAD~1'
 alias gpf='git push -f'
 
 # Alias definitions.
