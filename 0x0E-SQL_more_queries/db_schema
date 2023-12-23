@@ -1,0 +1,37 @@
+mysql> show tables;
++---------------------------+
+| Tables_in_hbtn_0d_tvshows |
++---------------------------+
+| tv_genres                 |
+| tv_show_genres            |
+| tv_shows                  |
++---------------------------+
+3 rows in set (0.00 sec)
+
+mysql> describe tv_genres;
++-------+--------------+------+-----+---------+----------------+
+| Field | Type         | Null | Key | Default | Extra          |
++-------+--------------+------+-----+---------+----------------+
+| id    | int          | NO   | PRI | NULL    | auto_increment |
+| name  | varchar(256) | NO   |     | NULL    |                |
++-------+--------------+------+-----+---------+----------------+
+2 rows in set (0.00 sec)
+
+mysql> describe tv_show_genres;
++----------+------+------+-----+---------+-------+
+| Field    | Type | Null | Key | Default | Extra |
++----------+------+------+-----+---------+-------+
+| show_id  | int  | NO   | MUL | NULL    |       |
+| genre_id | int  | NO   | MUL | NULL    |       |
++----------+------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> describe tv_shows;
++-------+--------------+------+-----+---------+----------------+
+| Field | Type         | Null | Key | Default | Extra          |
++-------+--------------+------+-----+---------+----------------+
+| id    | int          | NO   | PRI | NULL    | auto_increment |
+| title | varchar(256) | NO   |     | NULL    |                |
++-------+--------------+------+-----+---------+----------------+
+2 rows in set (0.00 sec)
+
