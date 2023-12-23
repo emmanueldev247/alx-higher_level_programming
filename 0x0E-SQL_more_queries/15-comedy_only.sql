@@ -1,9 +1,9 @@
--- Lists 14-my_genres.sql
-SELECT g.`name`
-	FROM `tv_shows` AS s
+-- Lists all Comedy shows in the database
+SELECT s.`title`
+	FROM `tv_genres` AS g
 	JOIN `tv_show_genres` AS sg
+		ON g.`id` = sg.`genre_id`
+	JOIN `tv_shows` AS s
 		ON s.`id` = sg.`show_id`
-	JOIN `tv_genres` AS g
-		ON sg.`genre_id` = g.`id`
-	WHERE s.`title` = 'Dexter'
-ORDER BY g.`name`;
+	WHERE g.`name` = 'Comedy'
+ORDER BY s.`title`;
