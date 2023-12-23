@@ -1,4 +1,4 @@
--- Lists all genres of the show Dexter
+-- Lists 14-my_genres.sql
 SELECT g.`name`
 	FROM `tv_shows` AS s
 	JOIN `tv_show_genres` AS sg
