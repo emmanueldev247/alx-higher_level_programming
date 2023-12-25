@@ -1,4 +1,4 @@
--- Lists all shows without the genre Comedy in the database
+-- Lists all shws without the genre Comedy in the database
 SELECT DISTINCT s.title
 FROM tv_shows AS s
 LEFT JOIN (
