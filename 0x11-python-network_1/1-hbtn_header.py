@@ -9,7 +9,6 @@ my_url = sys.argv[1]
 with urllib.request.urlopen(my_url) as response:
     response_body = response.read()
 
-headers = response.headers
-
-header_val = headers.get("X-Request-Id")
-print(header_val)
+    headers = dict(response.headers)
+    header_val = headers.get("X-Request-Id")
+    print(header_val)
