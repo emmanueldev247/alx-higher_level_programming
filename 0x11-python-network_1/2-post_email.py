@@ -4,7 +4,6 @@
     displays the body of the response (decoded in utf-8)"""
 
 import sys
-import json
 from urllib import request
 from urllib import parse
 
