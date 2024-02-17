@@ -8,10 +8,11 @@ import requests
 
 if __name__ == "__main__":
     my_url = "http://0.0.0.0:5000/search_user"
-    q = sys.argv[1] if len(sys.argv) > 1 else ""
+    letter = sys.argv[1] if len(sys.argv) > 1 else ""
+    params = {"q": letter}
 
     try:
-        response = requests.post(my_url, data=q).json()
+        response = requests.post(my_url, data=params).json()
         if len(response) == 0:
             print("No result")
         else:
