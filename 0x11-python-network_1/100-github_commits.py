@@ -11,12 +11,14 @@ if __name__ == "__main__":
     owner = sys.argv[2]
 
     url = f"https://api.github.com/repos/{owner}/{repo}/commits"
-    response = requests.get(url)
+
+    limit = {'per_page': 10}
+    response = requests.get(url, params=limit)
 
     commits = response.json()
 
-    for x in range(10):
-        sha = commits[x]['sha']
-        author = commits[x]['commit']['author']['name']
+    for commit in commits:
+        sha = commit['sha']
+        author = commit['commit']['author']['name']
 
         print(f'{sha}: {author}')
