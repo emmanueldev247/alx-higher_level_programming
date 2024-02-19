@@ -10,10 +10,9 @@ if __name__ == "__main__":
     user = sys.argv[1] if len(sys.argv) > 1 else ""
     passwd = sys.argv[2] if len(sys.argv) > 2 else ""
 
-    url = f"https://api.github.com/users/{user}"
+    url = f"https://api.github.com/user"
 
-    my_token = f"Bearer {passwd}"
-    data = {"Authorisation": my_token}
+    data = (user, passwd)
 
-    response = requests.get(url, data=data).json()
+    response = requests.get(url, auth=data).json()
     print(response.get('id'))
