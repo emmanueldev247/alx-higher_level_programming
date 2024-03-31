@@ -5,7 +5,6 @@ const request = require('request');
 
 const url = process.argv[2];
 const charID = 18;
-const searchString = 'https://swapi-api.alx-tools.com/api/people/' + charID + '/';
 
 request.get(url, (err, response, body) => {
   if (err) { return; }
@@ -14,7 +13,7 @@ request.get(url, (err, response, body) => {
   let count = 0;
 
   for (const result of data.results) {
-    if (result.characters.includes(searchString)) { count++; }
+    if (result.characters.some(element => element.includes(charID))) { count++; }
   }
   console.log(count);
 });
