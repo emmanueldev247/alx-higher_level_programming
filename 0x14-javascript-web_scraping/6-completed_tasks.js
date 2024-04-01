@@ -8,14 +8,14 @@ const url = process.argv[2];
 request.get(url, (err, response, body) => {
   if (err) { return; }
 
-  let result = {}
+  const result = {};
 
-  for (let todo of JSON.parse(body)) {
-    if (todo["completed"]) {
-      if (todo["userId"] in result) {
-        result[todo["userId"]]++;
+  for (const todo of JSON.parse(body)) {
+    if (todo.completed) {
+      if (todo.userId in result) {
+        result[todo.userId]++;
       } else {
-        result[todo["userId"]] = 1;
+        result[todo.userId] = 1;
       }
     }
   }
