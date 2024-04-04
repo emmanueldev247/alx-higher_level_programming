@@ -3,6 +3,6 @@
 
 const redHeader = $('#red_header');
 
-redHeader.on('click', function() {
-    redHeader.css('color', '#FF0000');
- });
+redHeader.on('click', function () {
+  redHeader.css('color', '#FF0000');
+});
