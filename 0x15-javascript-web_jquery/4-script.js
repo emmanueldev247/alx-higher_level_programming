@@ -5,6 +5,6 @@ $(document).ready(function () {
   const header = $('header');
 
   togHeader.on('click', function () {
-        header.toggleClass('red green');
+    header.toggleClass('red green');
   });
 });
