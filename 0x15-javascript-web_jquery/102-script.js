@@ -13,8 +13,7 @@ $(document).ready(() => {
       dataType: 'json',
       url: url,
       success: function (data) {
-        helloDiv.empty();
-        helloDiv.append('<span>' + data.hello + '</span>');
+        helloDiv.html('<span>' + data.hello + '</span>');
       }
     });
   });
