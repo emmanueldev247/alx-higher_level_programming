@@ -14,7 +14,6 @@ $(document).ready(() => {
   });
 
   function helloAPI () {
-    console.log('called');
     const url = 'https://hellosalut.stefanbohacek.dev/?lang=' + langBox.val().trim();
     $.ajax({
       type: 'GET',
