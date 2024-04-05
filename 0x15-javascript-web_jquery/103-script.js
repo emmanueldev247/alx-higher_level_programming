@@ -3,17 +3,17 @@
 $(document).ready(() => {
   const translateBtn = $('INPUT#btn_translate');
   const helloDiv = $('DIV#hello');
-    const langBox = $('INPUT#language_code');
+  const langBox = $('INPUT#language_code');
 
   translateBtn.click(helloAPI);
 
-  translateBtn.keypress(function(event) {
-    if (event.keyCode == 13) {
-      helloAPI;
+  translateBtn.keypress(function (event) {
+    if (event.keyCode === 13) {
+      helloAPI();
     }
   });
 
-  function helloAPI() {
+  function helloAPI () {
     console.log('called');
     const url = 'https://hellosalut.stefanbohacek.dev/?lang=' + langBox.val().trim();
     $.ajax({
